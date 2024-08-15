@@ -73,3 +73,73 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Node.js dan NPM: Untuk mengelola dependencies JavaScript.
 - Git: Untuk mengkloning repositori dari GitHub.
 2. Setelah selesai step yang di atas, cari bagian menu di atas lalu pilih tombol code, lalu install zip
+   Instalasi Dependencies
+Langkah 3: Instal Dependencies PHP:
+
+Gunakan Composer untuk menginstal semua dependencies yang dibutuhkan oleh Laravel:
+bash
+Copy code
+composer install
+Langkah 4: Instal Dependencies JavaScript:
+
+Instal dependencies Node.js menggunakan NPM:
+bash
+Copy code
+npm install
+4. Konfigurasi Proyek
+Langkah 5: Buat File .env:
+
+Duplikat file .env.example dan beri nama .env:
+bash
+Copy code
+cp .env.example .env
+Buka file .env dan sesuaikan konfigurasi seperti database, mail, dan lainnya sesuai dengan lingkungan pengembangan mereka.
+Langkah 6: Generate Application Key:
+
+Jalankan perintah berikut untuk menghasilkan application key:
+bash
+Copy code
+php artisan key:generate
+5. Migrasi dan Seed Database
+Langkah 7: Migrasi Database:
+Jalankan migrasi untuk membuat tabel di database:
+bash
+Copy code
+php artisan migrate
+Langkah 8: Seed Database (Opsional):
+Jika proyek memerlukan data awal, jalankan perintah berikut:
+bash
+Copy code
+php artisan db:seed
+6. Menjalankan Aplikasi
+Langkah 9: Jalankan Server Laravel:
+Untuk menjalankan aplikasi, gunakan perintah:
+bash
+Copy code
+php artisan serve
+Akses aplikasi di browser melalui URL berikut:
+url
+Copy code
+http://localhost:8000
+7. Compile Assets
+Langkah 10: Compile Assets:
+Jalankan perintah ini untuk mengelola assets (CSS, JavaScript):
+bash
+Copy code
+npm run dev
+Untuk lingkungan produksi:
+bash
+Copy code
+npm run production
+8. Testing Aplikasi
+Langkah 11: Jalankan Testing:
+Gunakan perintah berikut untuk menjalankan tes dan memastikan aplikasi berfungsi dengan benar:
+bash
+Copy code
+php artisan test
+9. Penanganan Masalah
+Langkah 12: Debugging:
+Aktifkan mode debug di file .env jika ada masalah:
+env
+Copy code
+APP_DEBUG=true
