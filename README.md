@@ -75,4 +75,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2. Setelah selesai step yang di atas, cari bagian menu di atas lalu pilih tombol code, lalu install zip
 3. Setelah selesai lalu masuk ke direktori projek, buka terminal nya, dalam kasus saya, saya menggunakan terminal bawaan
 4. lalu paste kode ini
-  'composer install'
+  ```composer install```
