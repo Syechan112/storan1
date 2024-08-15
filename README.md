@@ -74,5 +74,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Git: Untuk mengkloning repositori dari GitHub.
 2. Setelah selesai step yang di atas, cari bagian menu di atas lalu pilih tombol code, lalu install zip
 3. Setelah selesai lalu masuk ke direktori projek, buka terminal nya, dalam kasus saya, saya menggunakan terminal bawaan
-4. lalu paste kode ini
+4. lalu jalankan kode ini di terminal
   ```composer install```
+5. setelah selesai prosesnya install komposer, sekarang jalankan kode ini ```npm install```
