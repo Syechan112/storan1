@@ -76,9 +76,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3.Instalasi Dependencies
 - Langkah 3: Instal Dependencies PHP:
 
-Gunakan Composer untuk menginstal semua dependencies yang dibutuhkan oleh Laravel:
-bash
-Copy code
+4.Gunakan Composer untuk menginstal semua dependencies yang dibutuhkan oleh Laravel:
 composer install
 Langkah 4: Instal Dependencies JavaScript:
 
