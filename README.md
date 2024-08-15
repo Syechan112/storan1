@@ -72,8 +72,17 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Composer: Dependency manager untuk PHP.
 - Node.js dan NPM: Untuk mengelola dependencies JavaScript.
 - Git: Untuk mengkloning repositori dari GitHub.
+- xampp/laragon
 2. Setelah selesai step yang di atas, cari bagian menu di atas lalu pilih tombol code, lalu install zip
 3. Setelah selesai lalu masuk ke direktori projek, buka terminal nya, dalam kasus saya, saya menggunakan terminal bawaan
 4. lalu jalankan kode ini di terminal
   ```composer install```
 5. setelah selesai prosesnya install komposer, sekarang jalankan kode ini ```npm install```
+6. Lalu ketika sudah selesai menginstall npm, jalankan kode ini ```cp .env.example .env``` untuk me refrsh env nya
+7. lalu setelah selesai env sekarang jalankan kode ini ```php artisan key:generate```
+8. lalu jalanankan ```php artisan migrate``` untuk jaga jaga
+9. sama seperti yang di atas untuk jaga jaga setelah migrasi ```php artisan db:seed```
+10. lalu step terakhir jalankan ```npm run dev```
+11. buka visual studio lalu jalankan. beresss
+*note
+di sini saya menggunkan laragon, oleh karena itu direktori saya ada di direktori nya laragon
