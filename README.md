@@ -74,7 +74,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Git: Untuk mengkloning repositori dari GitHub.
 2. Setelah selesai step yang di atas, cari bagian menu di atas lalu pilih tombol code, lalu install zip
 3.Instalasi Dependencies
-- Langkah 3: Instal Dependencies PHP:
+- Instal Dependencies PHP:
 
 4.Gunakan Composer untuk menginstal semua dependencies yang dibutuhkan oleh Laravel:
 composer install
