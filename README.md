@@ -68,7 +68,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Cara Installasi Projek Ini 👇
 
 1. Persyaratan Sistem
-- PHP: Versi 8.x atau lebih baru.
+- PHP: Versi 8.2 atau versi yang terbaru.
 - Composer: Dependency manager untuk PHP.
 - Node.js dan NPM: Untuk mengelola dependencies JavaScript.
 - Git: Untuk mengkloning repositori dari GitHub.
+2. Setelah selesai step yang di atas, cari bagian menu di atas lalu pilih tombol code, lalu install zip
